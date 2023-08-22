@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<math.h>
+
+main(){
+
+    //Atividade 9
+
+    float salario=0.0, percentual=0.0, reajuste=0.0, novo=0.0;
+
+    printf("Informe seu salario:");
+    scanf("%f", &salario);
+
+    printf("Informe o percentual do reajuste:");
+    scanf("%f", &percentual);
+
+    reajuste = ((percentual/100) + (float)1.00);
+    novo = (reajuste * salario);
+
+    printf("Salario com reajuste: %.2f", novo);
+
+}
