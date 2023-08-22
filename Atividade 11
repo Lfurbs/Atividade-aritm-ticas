@@ -1,0 +1,26 @@
+include<stdio.h>
+#include<math.h>
+
+main(){
+
+    //Atividade 11
+
+    int salario=0, comifix=0, carro=0, total=0;
+    float comifix2=0, comivari=0.0, salarioFinal= 0.0;
+
+    printf("Informe seu salário:");
+    scanf("%d", &salario);
+
+    printf("Informe a comissão do carro vendido:");
+    scanf("%d", &comifix);
+
+    printf("Total de carros vendidos:");
+    scanf("%d", &total);
+
+    comifix2 = (carro * comifix);
+    comivari = (total * 0.05);
+    salarioFinal= (salario + comivari + comifix2);
+
+    printf("Salario final: %.2f", salarioFinal);
+    
+}
