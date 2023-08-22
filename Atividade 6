@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<math.h>
+
+main(){
+
+    //Atividade 6
+
+int custo, frete, despesa, venda, valorBruto, lucro;
+
+printf("Digite o custo da mercadoria:");
+scanf("%d", &custo);
+
+printf("Digite o valor do frete:");
+scanf("%d", &frete);
+
+printf("Despesas eventuais:");
+scanf("%d", &despesa);
+
+valorBruto = custo + frete + despesa;
+printf("Total da compra: %d", valorBruto);
+
+printf("\nValor da venda:");
+scanf("%d", &venda);
+
+lucro = ((venda - valorBruto)/valorBruto)*100;
+
+printf("Valor do lucro: %d%%", lucro);
+}
