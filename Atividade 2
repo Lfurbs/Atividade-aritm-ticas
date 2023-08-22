@@ -3,18 +3,15 @@
 
 main(){
 
-    //Atividade 3
+    //Atividade 2
 
-   int numero1, numero2, multi;
-
-    printf("Base:");
+    int numero1, multi;
+    int num2=2; 
+    printf("Of dobro de um numero qualquer:");
     scanf("%d", &numero1);
 
-    printf("Altura:");
-    scanf("%d", &numero2);
+    multi = numero1 * num2;
 
-    multi = numero1 * numero2;
-
-    printf ("\nArea da sala: %d", multi);
+    printf ("\nMutiplicao: %d", multi);
 
 }
