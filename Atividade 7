@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<math.h>
+
+main(){
+
+    //Atividade 7
+
+    int raio=0;
+    float pi=3.14, multi=0.0;
+
+    printf("Informe o raio da circunferencia:");
+    scanf("%d", &raio);
+
+    multi = (pow(raio, 2)*pi);
+
+    printf("O valor da area e: %f", multi);
+
+}
