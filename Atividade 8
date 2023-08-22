@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<math.h>
+
+main(){
+
+    //Atividade 8
+
+    int ano=0, mes=0, dia=0, total;
+
+    printf("Insira sua idade em anos, meses e dias:");
+    scanf("%d %d %d", &ano, &mes, &dia);
+
+    ano = 365 * ano;
+    mes = 30 * mes;
+    total = ano + mes + dia;
+
+    printf("Sua idade somente em dias e: %d", total);
+
+}
