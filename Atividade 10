@@ -8,7 +8,7 @@ main(){
     int distribuidor=28, imposto=45, somaimp=0;
     float taxa=0.0, novoCusto=0.0, custoInicial=0.0;
 
-    printf("Informe o valor inicial do carro:")
+    printf("Informe o valor inicial do carro:");
     scanf("%f", &custoInicial);
 
     somaimp = distribuidor + imposto;
