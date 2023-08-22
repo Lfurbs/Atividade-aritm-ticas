@@ -3,9 +3,10 @@
 
 main(){
 
+//Atividade 1
+
 int numero1, numero2, soma, multi, sub, potencia, modulo;
 float div;
-//Atividade 1
 
 printf("Soma, subtracao, multiplicacao e divisao de 2 numeros:");
 scanf("%d %d", &numero1, &numero2);
