@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<math.h>
+
+main(){
+
+int numero1, numero2, soma, multi, sub, potencia, modulo;
+float div;
+//Atividade 1
+
+printf("Soma, subtracao, multiplicacao e divisao de 2 numeros:");
+scanf("%d %d", &numero1, &numero2);
+
+soma = numero1 + numero2;
+multi = numero1 * numero2;
+sub = numero1 - numero2;
+div = (float)numero1/(float)numero2; 
+
+printf("Soma: %d, \nMultiplicacao: %d, \nSubtracao: %d, \nDivisao: %.2f", soma, multi, sub, div);
+
+}
